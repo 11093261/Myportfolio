@@ -1,0 +1,26 @@
+.scroll{
+    @apply  scroll-m-5 scroll-smooth font-mono
+}
+.conf{
+    @apply hover:border-b-2 border-white
+}
+
+.para{
+    @apply animate-bounce ease-linear transform translate-x-5 translate-y-20 text-red-200 text-[30px] rotate-45
+
+}
+.skill{
+    @apply text-[25px] text-white w-[50%]
+}
+.contactbutton{
+    @apply bg-red-100  text-center md:w-[10vw]  text-emerald-800 w-[30%]
+
+}
+
+.moving{
+    @apply animate-bounce
+}
+
+.navit{
+    @apply active:hover:border-b border-red-100 
+}
