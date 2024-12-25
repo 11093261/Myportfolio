@@ -15,7 +15,7 @@ import Footer from "./Footer";
 import Login from "./Component/Login";
 import { Context } from "./Component/Context";
 import Recent from "./Component/Recent";
-import Chatbox from "./Component/chatbox";
+// import Chatbox from "./Component/chatbox";
 import { User } from "./Component/User";
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
               <Route path="/Contact" element={<Contact />} />
               <Route path="/Recent" element={<Recent />} />
               <Route path="/Login" element={<Login/>}>
-                <Route path="/Login/Chatbox" element={<Chatbox />} />
+                {/* <Route path="/Login/Chatbox" element={<Chatbox />} /> */}
               </Route>
             </Route>
           </Routes>

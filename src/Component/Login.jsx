@@ -36,10 +36,10 @@ const Login = () => {
   const Handlelogin = () => {
     if(userid === displayValue || Lastname || Firstname ||emailvalue){
 
-      setInterval(() => {
-        Nav("/Chatbox")
+      // setInter(() => {
+      //   Nav("/Chatbox")
         
-      }, 1000);
+      // }, 1000);
     }
 
 
