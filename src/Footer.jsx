@@ -103,7 +103,7 @@ const Footer = () => {
       </div>
       <div className="md:h-[20vh] h-[20vh] md:w-[100%] w-[100%] flex justify-center items-center">
         <p className="md:text-[20px] text-[10px] W-[100%] text-red-100 text-center">
-          Copy @ Okechukwu Godstime || all right reserved.
+          Copyright @ Okechukwu Godstime || all right reserved.
         </p>
       </div>
     </main>
