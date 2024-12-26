@@ -15,7 +15,7 @@ const Footer = () => {
     setvaluedisplay(Valuedisplay + 1)
   }
   return (
-    <main className="md:h-[200vh] h-[200vh]  md:w-[100%] w-[100%] flex justify-center items-center bg-emerald-800 flex-col">
+    <main className="md:h-[220vh] h-[220vh]  md:w-[100%] w-[100%] flex justify-center items-center bg-emerald-800 flex-col">
       <div className="md:h-[150vh] h-[150vh]  md:w-[50%] w-[80%] flex py-[40px] justify-center items-center flex-col gap-10">
         <p className="font-medium text-white md:text-[25px] py-[20px] text-[20px] md:w-[100%] w-[100%]  text-center ">
           Please feel free to communicatate to me how you think this website has
@@ -101,7 +101,7 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      <div className="md:h-[15vh] h-[15vh] md:w-[100%] w-[100%] flex justify-center items-center">
+      <div className="md:h-[20vh] h-[20vh] md:w-[100%] w-[100%] flex justify-center items-center">
         <p className="md:text-[20px] text-[10px] W-[100%] text-red-100 text-center">
           Copy @ Okechukwu Godstime || all right reserved.
         </p>
